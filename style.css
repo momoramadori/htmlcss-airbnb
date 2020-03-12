@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(222, 237, 229);
+    font-family: 'Baloo Chettan 2', cursive;
+    color: white;
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 2px 2px 8px #000000;
+}
+.city {
+    height: 19vh;
+    width: 20vw;
+    position: relative;
+    background-size: cover;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 10px grey;
+}
+#rome {
+    background-image: url(img/rome.jpg);
+
+}
+#milan {
+    background-image: url(img/milan.jpg);
+}
+#naples {
+    background-image: url(img/naples.png);
+}
+#turin {
+    background-image: url(img/turin.png);
+}
+#assisi {
+    background-image: url(img/assisi.png);
+}
